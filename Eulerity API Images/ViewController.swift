@@ -13,19 +13,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var imagesTable: UITableView!
     
     let images: [Response] = [
-        Response(url: "URL", created: "Now", updated: "Again"),
+        Response(url: "URL1", created: "Now", updated: "Again"),
         Response(url: "URL2", created: "Now", updated: "Again"),
         Response(url: "URL3", created: "Now", updated: "Again")
-        
     ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imagesTable.delegate = self
         imagesTable.dataSource = self
-
+/*      imagesTable.separatorInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+*/
     }
     
+    func getData() {
+        
+    }
+    
+    /* Populating table view */
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return images.count
     }
@@ -40,10 +45,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         return UITableViewCell()
     }
-    
-    
-
-
 }
     
 struct Response: Codable {
