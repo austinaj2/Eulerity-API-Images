@@ -16,6 +16,7 @@
 		8478C22127C9BF2B00AA889B /* Eulerity_API_ImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478C22027C9BF2B00AA889B /* Eulerity_API_ImagesTests.swift */; };
 		8478C22B27C9BF2B00AA889B /* Eulerity_API_ImagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478C22A27C9BF2B00AA889B /* Eulerity_API_ImagesUITests.swift */; };
 		8478C22D27C9BF2B00AA889B /* Eulerity_API_ImagesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478C22C27C9BF2B00AA889B /* Eulerity_API_ImagesUITestsLaunchTests.swift */; };
+		8478C23A27C9C12D00AA889B /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478C23927C9C12D00AA889B /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8478C22627C9BF2B00AA889B /* Eulerity API ImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eulerity API ImagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8478C22A27C9BF2B00AA889B /* Eulerity_API_ImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eulerity_API_ImagesUITests.swift; sourceTree = "<group>"; };
 		8478C22C27C9BF2B00AA889B /* Eulerity_API_ImagesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eulerity_API_ImagesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8478C23927C9C12D00AA889B /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8478C21227C9BF2A00AA889B /* Assets.xcassets */,
 				8478C21427C9BF2A00AA889B /* LaunchScreen.storyboard */,
 				8478C21727C9BF2A00AA889B /* Info.plist */,
+				8478C23927C9C12D00AA889B /* ImageCell.swift */,
 			);
 			path = "Eulerity API Images";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8478C20E27C9BF2800AA889B /* ViewController.swift in Sources */,
+				8478C23A27C9C12D00AA889B /* ImageCell.swift in Sources */,
 				8478C20A27C9BF2800AA889B /* AppDelegate.swift in Sources */,
 				8478C20C27C9BF2800AA889B /* SceneDelegate.swift in Sources */,
 			);
