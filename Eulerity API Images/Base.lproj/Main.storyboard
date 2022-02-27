@@ -70,6 +70,7 @@
                     <navigationItem key="navigationItem" title="API Images" largeTitleDisplayMode="always" id="6aJ-ul-150"/>
                     <connections>
                         <outlet property="imagesTable" destination="E0J-ff-pCu" id="wII-gz-MCm"/>
+                        <segue destination="Vll-Zl-y7i" kind="show" identifier="showDetails" id="WGN-4e-3F1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -93,6 +94,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P3x-Cy-Dcq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hdn-cq-yLs">
+            <objects>
+                <viewController id="Vll-Zl-y7i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4uG-w5-i3a">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JN5-iQ-hfF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qFf-i5-rI9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A9s-0v-QKT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1748" y="70"/>
         </scene>
     </scenes>
     <resources>

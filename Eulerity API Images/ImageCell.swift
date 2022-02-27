@@ -22,5 +22,22 @@ class ImageCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
+    func configure(url: String, completed: @escaping () -> ()) {
+        print(url)
+                URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: { (data, response, error) in
+                    if let data = data {
+                        if error == nil {
+                            if let img = UIImage(data: data) {
+                                DispatchQueue.main.async {
+                                    self.cellImageView.image = img
+                                    completed()
+                                }
+                            }
+                        }
+                    }
+                }).resume()
+    }
 
 }
