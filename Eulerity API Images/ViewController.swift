@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 */
     }
     
-    func getData() {
+    func getData(from url: String) {
         
     }
     
